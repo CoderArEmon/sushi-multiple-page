@@ -1,0 +1,24 @@
+@media (max-width: 1177px) {
+    .header_content{
+        width: 69% !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #subscribe .input-group{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 503px){
+    .header_content{
+        width: 90% !important;
+    }
+}
+
+
+@media (max-width: 400px){
+    .content_one{
+        padding-left: 0 !important;
+    }
+}

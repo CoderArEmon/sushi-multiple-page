@@ -1,0 +1,47 @@
+/*
+    Default Style
+*/
+
+
+#counter{
+  padding: 60px 0;
+}
+.single-coutnerup{
+  text-align: center;
+  border: 3px solid #fd9191;
+  width: 200px;
+  padding-top: 30px;
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto;
+}
+.single-coutnerup .count-num {
+  font-size: 75px;
+  line-height: 90px;
+  font-weight: bold;
+  color: #2fb4ac;
+  display: inline-block;
+}
+
+.single-coutnerup {
+    text-align: center;
+}
+
+.single-coutnerup .title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #2fb4ac;
+}
+
+
+#counter h2{
+  font-size: 42px;
+  color: #161922;
+}
+#counter hr{
+  width: 100px;
+  border-width: 3px;
+  color: rgba(0, 0, 0, .08);
+  background-color: rgba(0, 0, 0, .08);
+  margin: 0 auto;
+}

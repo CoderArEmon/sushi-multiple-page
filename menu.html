@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi - Menu</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+	
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+    <!-- AOS CSS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom Responsive CSS Link -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- Start Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="promo.html">Promo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header Section -->
+
+   <!-- Start Hero Section -->
+    <section id="hero">
+        <div class="hero">
+            <h2>Sushi Menu</h2>
+        </div>
+    </section>
+
+   <!-- End Hero Section -->
+
+   <!-- Start Menu Section -->
+    <section id="menu" class="menu section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Online Menu of Sushi</h2>
+            <div class="border_line mx-auto"></div>
+          </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                  <ul id="menu-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-special">Special</li>
+                    <li data-filter=".filter-premium">Premium</li>
+                    <li data-filter=".filter-salad">Salad</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+      
+                <div class="col-lg-6 menu-item filter-special">
+                  <img src="images/menu/sp1.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Mini Sushi Cake with sparkler candle</a><span>1290.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    ayers of salmon, avocado, nori sheets, sushi rice - cut into 6 "slices". served with ginger, soy sauce, wasabi. and sparkler candle
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 menu-item filter-salad">
+                  <img src="images/menu/s1.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Shrimp, Avocado, Quinoa, and RocketLeaf Salad</a><span>398.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    exactly what the name describes!
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 menu-item filter-premium">
+                  <img src="images/menu/p1.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Salmon Maki topped with torched crab</a><span> 550.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Prime salmon sashimi in authentic Japanese sticky rice topped with torched sea crab
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 menu-item filter-special">
+                  <img src="images/menu/sp2.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">The Samurai Bento Bowl</a><span>890.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    The ulimate nutritious bowl. Ramen soft boil egg, edamame, rice and nori marbled, colourful veggies, and lettuce. Served with dressing and love!
+                  </div>
+                </div>
+      
+              <div class="col-lg-6 menu-item filter-special">
+                  <img src="images/menu/sp3.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Spicy or Sesame Salmon Stack Maki</a><span>990.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    salmon maki topped with thinly sliced creamy avocado and sesame salmon tartare with black caviar garnish
+                  </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-premium">
+                  <img src="images/menu/p2.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Torched Salmon Overboard Roll</a><span> 1,100.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Crabstick and avocado roll with flame torched salmon sashimi slices with hot spicy sauce flambe
+                  </div>
+                </div>
+
+
+                <div class="col-lg-6 menu-item filter-special">
+                  <img src="images/menu/sp4.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Red tide tuna poke stack roll</a><span>1,180.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Philadelphia cream cheese cucumber roll, jalapeno chopped, shrimp inside then tuna tartare on top! Fun time!
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 menu-item filter-premium">
+                  <img src="images/menu/p3.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Next Edition Roll</a><span> 810.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Salmon Avocado Interior topped with premium eel
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 menu-item filter-premium">
+                  <img src="images/menu/p4.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Money Train Roll</a><span>550.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Salmon, Tuna, Philadelphia Cream Cheese rolled in lettuce and basil leaf. health is wealth!
+                  </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-salad">
+                  <img src="images/menu/s2.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Grilled Chicken Salad with duo of Dressing</a><span>395.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Charcoal fire grilled boneless chicken over Arugula, Iceberg, and mixed lettuce, tomato, grilled asparagus. Served with two dressings - herbed lemon vinaigrette and honey dijon dressing.
+                  </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-special">
+                  <img src="images/menu/sp5.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Mosaic Sushi</a><span>645.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    extremely finely crafted. piece of art!
+                  </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-premium">
+                  <img src="images/menu/p5.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Double Tempura Fried Lobster Shrimp Avocado Cream Cheese Roll</a><span>670.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Big Lobster Shrimp tempura, avocado, and Philadelphia cream cheese in a sumptous roll that is sprinkled in sesame and panko and fried
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 menu-item filter-salad">
+                  <img src="images/menu/s3.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Bulgogi Skewers Salad bowl - chicken, beef, or vegan</a><span>695.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                    Spicy Bulgogi skewers, radish, cucumber, red cabbage, over lettuce, with spicy kochujan lemon juice dressing. A hint of peanuts.
+                  </div>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-premium">
+                  <img src="images/menu/p6.jpg" class="menu-img" alt="">
+                  <div class="menu-content">
+                    <a href="#">Salmon Philadelphia roll</a><span> 590.00</span>
+                  </div>
+                  <div class="menu-ingredients">
+                  </div>
+                </div>
+      
+              </div>
+
+        </div>
+
+        
+    </section>
+   <!-- End Menu Section -->
+
+
+   <!-- End Subscribe Section -->
+
+    <!-- Start Footer Section -->
+    <section id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-5 py-3">
+                  <a href="index.html"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+                  <span class="icon">
+                       <a href="#"><i class="fab fa-instagram"></i></a>
+                       <a href="#"><i class="fab fa-facebook-f" style="padding: 0.5rem 0.813rem;"></i></a>
+                       <a href="#"><i class="fab fa-twitter"></i></a>
+                       <a href="#"><i class="fab fa-whatsapp"></i></a>
+                  </span>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-7 py-3">
+                  <div class="row pl-4">
+                      <div class="col-12 col-md-4 col-lg-4 p-0">
+                          <h5>About</h5>
+                          <ul>
+                              <li><a href="#">History</a></li>
+                              <li><a href="#">Our Team</a></li>
+                              <li><a href="#">Brand Guidelines</a></li>
+                              <li><a href="#">Terms & Condition</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-4 p-0">
+                          <h5>Services</h5>
+                          <ul>
+                              <li><a href="#">How to Order</a></li>
+                              <li><a href="#">Our Product</a></li>
+                              <li><a href="#">Order Status</a></li>
+                              <li><a href="promo.html">Promo</a></li>
+                              <li><a href="#">Payment Method</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-4 p-0">
+                          <h5>Other</h5>
+                          <ul>
+                              <li><a href="contact.html">Contct Us</a></li>
+                              <li><a href="#">Help</a></li>
+                              <li><a href="#">Privacy</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- End Footer Section -->
+
+
+
+
+
+
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   <!-- Waypoint JS Link -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+   <!-- AOS JS Link -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- Isotope JS Link -->
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  <!-- Custom JS Link -->
+  <script src="js/script.js"></script>
+</body>
+</html>

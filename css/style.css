@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***  Start  Header Section  ****/
+#header{
+    background-image: url(../images/header_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-light {
+    background-color: #e59090 !important;
+}
+.navbar{
+    box-shadow: 0px 2px 0px #333;
+}
+.nav-link{
+    font-size: 1.563rem;
+    font-weight: 600;
+    padding-right: 1.25rem !important;
+    transition: 0.9s;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.header_content{
+    width: 50%;
+    padding: 6.25rem 0 9.375rem;
+    margin-top: 3.125rem;
+}
+.header_content h2{
+    font-size: 6.25rem;
+    font-weight: bold;
+    color: #fff;
+}
+.header_content p{
+    font-size: 1.875rem;
+    color: #fff;
+}
+.header_content a{
+    background-color: #6db3ab;
+    padding: 0.625rem 2.063rem;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.5s;
+}
+/***  End  Header Section  ****/
+
+/***  Start Content Section   ****/
+/***  Start Content One   ****/
+#c_one{
+    background-image: url(../images/order_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 12.5rem 0;
+}
+.content_one{
+    padding-left: 3.75rem;
+}
+.content_one h2{
+    font-size: 4.688rem;
+    font-weight: bold;
+    color: #2fb4ac;
+}
+.content_one p{
+    font-size: 1.875rem;
+    color: #2fb4ac;
+}
+.content_one a, .content_four a{
+    background-color: #e59090;
+    padding: 0.625rem 2.063rem;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.5s;
+}
+/***  End Content One   ****/
+
+/***  Start Content Two   ****/
+#c_two{
+    background-image: url(../images/menu_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    padding: 9.375rem 0;
+}
+#c_two h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 3.75rem;
+}
+#c_two .img-fluid{
+    max-width: 50%;
+}
+#c_two h4{
+    font-size: 1.75rem;
+    color: #fff;
+    padding-top: 1.25rem;
+}
+#c_two p{
+    font-size: 1rem;
+    color: #fff;
+}
+/***  End Content Two   ****/
+
+/***  Start Content Three   ****/
+#c_three{
+    background-image: url(../images/statistic_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 6.25rem 0;
+}
+#c_three h2{
+    font-size: 3.875rem;
+    color: #2fb4ac;
+    font-weight: bold;
+}
+#c_three p{
+    font-size: 1.563rem;
+    color: #2fb4ac;
+    margin-bottom: 1.875rem;
+}
+/***  End Content Three   ****/
+
+/***  Start Content Three   ****/
+#c_four{
+    background-image: url(../images/sushi_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 11.25rem 0;
+}
+.content_four h2{
+    font-size: 4.688rem;
+    font-weight: bold;
+    color: #fff;
+}
+.content_four p{
+    font-size: 1.875rem;
+    color: #fff;
+}
+
+/***  End Content Three   ****/
+/***  End Content Section   ****/
+
+
+/***  Start Chef Section   ****/
+#chef{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/client_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 6.25rem 0;
+}
+#chef p{
+    font-size: 2.625rem;
+    color: #fff;
+}
+#chef h4{
+    font-size: 2.813rem;
+    font-weight: bold;
+    color: #fff;
+}
+/***  End Chef Section   ****/
+
+/***  Start Subscribe Section   ****/
+#subscribe{
+    background:  url("../images/subscribe_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 11.25rem 0;
+}
+#subscribe h2{
+    font-size: 4.688rem;
+    color: #21243d;
+    font-weight: bold;
+}
+#subscribe p{
+    font-size: 1.875rem;
+    color: #21243d;
+    font-weight: 300;
+    margin-bottom: 3.75rem;
+}
+#subscribe .input-group{
+    width: 50%;
+    margin: 0 auto;
+}
+#subscribe .form-control{
+    border-radius: 3.125rem;
+    position: relative;
+    left: 2.625rem;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+}
+.form-control:focus{
+    outline: none;
+    border: 1px solid #21243d;
+    box-shadow: none;
+    z-index: 1 !important;
+}
+#basic-addon2{
+    border-radius: 3.125rem;
+    padding: 0.625rem 1.5rem;
+    background-color: #21243d;
+    color: #fff;
+    font-weight: bold;
+}
+/***  End Subscribe Section   ****/
+
+/***  Start Footer Section   ****/
+#footer{
+    background-color: #777777;
+    color: #fff;
+    padding: 6.25rem 0;
+}
+#footer p{
+    font-size: 1.125rem;
+    margin: 1.25rem 0;
+}
+#footer .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#footer i{
+    background: #fff;
+    color: #777777;
+    font-size: 1.375rem;
+    padding: 0.5rem 0.625rem;
+    border-radius: 50%;
+    margin-right: 0.313rem;
+    transition: 0.5s;
+}
+#footer i:hover{
+    color: black;
+    background-color: #e59090;
+}
+#footer h5{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+#footer ul li a{
+    font-size: 1.125rem;
+    line-height: 2.125rem;
+    transition: 0.4s;
+}
+#footer ul li a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+/***  End Footer Section   ****/
+
+/************************
+xx Start Menu HTML Section xx
+************************/
+
+/***  Start Hero Section   *****/
+#hero{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7) ), url(../images/menu.png);
+    background-position: center;
+    background-size: cover;
+    padding: 180px 0;
+}
+
+.hero h2{
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    text-shadow: 0px 2px 15px #000;
+    font-style: italic;
+}
+
+/***  Start Menu Section  ***/
+
+#menu{
+    background-color: #1a1814;
+    padding-bottom: 200px;
+}
+.section-title h2{
+    padding-top: 55px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.border_line{
+    width: 100px;
+    height: 3px;
+    background-color: #e59090;
+    margin-bottom: 55px;
+    transition: 0.5s;
+}
+.section-title h2:hover + .border_line{
+    width: 300px;
+}
+.menu #menu-flters {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px 10px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 50px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+    color: #e59090;
+  }
+  
+  .menu #menu-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu .menu-item {
+    margin-top: 50px;
+  }
+  
+  .menu .menu-img {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .menu .menu-content {
+    margin-left: 85px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .menu .menu-content::after {
+    content: "......................................................................"
+   "...................................................................."
+   "....................................................................";
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+    color: #bab3a6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  .menu .menu-content a {
+    padding-right: 10px;
+    background: #1a1814;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .menu .menu-content a:hover {
+    color: #e59090;
+  }
+  
+  .menu .menu-content span {
+    background: #1a1814;
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+    color: #e59090;
+  }
+  
+  .menu .menu-ingredients {
+    margin-left: 85px;
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+  }
+ 
+/***  End Menu Section  ***/
+
+/************************
+xx Start Contact HTML Section xx
+************************/
+
+/****   Start Contact Section  ***/
+
+.contact-form{
+    width: 80%;
+    margin: 80px auto;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 12px #333;
+}
+.contact-form span{
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.contact-form span i{
+    color: #e59090;
+    font-size: 25px;
+    padding-right: 18px;
+}
+.contact-form a{
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.contact-form a:hover{
+    background-color: #e59090;
+    color: #fff;
+    border: 1px solid #e59090;
+}
+/****   End Contact Section  ***/
+
+/************************
+xx Start Promo HTML Section xx
+************************/
+
+/****   Start Promo Section  ***/
+#promo{
+    padding-bottom: 100px;
+}
+#promo .card{
+    box-shadow: 0px 12px 14px #000;
+}
+#promo .card-img-top{
+    max-height: 260px;
+}
+#promo .btn-primary{
+    background-color: #e59090;
+    border: 1px solid #e59090;
+    transition: 0.5s;
+    font-weight: 600;
+}
+#promo .btn-primary:hover{
+    color: #000;
+}
+/****   End Promo Section  ***/
+
+/************************
+xx Start About HTML Section xx
+************************/
+
+/****   Start About Section  ***/
+#about{
+    padding-bottom: 100px;
+}
+#about h4{
+    color: rgb(240, 68, 68);
+    font-weight: bold;
+    font-size: 34px;
+    text-shadow: 0px 3px 2px #333;
+}
+#about p{
+    font-size: 18px;
+    text-align: justify;
+}
+/****   End About Section  ***/
